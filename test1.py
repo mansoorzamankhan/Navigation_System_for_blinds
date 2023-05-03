@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-net = cv2.dnn.readNet("/home/hassan/darknet/yolov3.weights","/home/hassan/darknet/cfg/yolov3.cfg")
+net = cv2.dnn.readNet("/home/darknet/yolov3.weights","/home/darknet/cfg/yolov3.cfg")
 classes = []
 
 with open('/home/hassan/darknet/coco.names','r') as f:
